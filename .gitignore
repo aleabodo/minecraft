@@ -22,3 +22,6 @@ plugins/WorldGuard/*
 !plugins/FastAsyncWorldEdit/worldedit-config.yml
 !plugins/LuckPerms/luckperms-h2.mv.db
 !plugins/voicechat-server.properties
+
+plugins/PluginMetrics/
+plugins/PluginMetrics/*

@@ -8,6 +8,8 @@
 !euler.txt
 !server.properties
 !config/*
+!bukkit.yml
+!spigot.yml
 
 #scripts
 !scripts/*

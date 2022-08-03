@@ -1,0 +1,9 @@
+#!/bin/bash
+
+location="/home/ubuntu/minecraft/" #Location of the server jar. Include terminating /. Use absolute path!
+
+if ! screen -ls | grep -q "manualrestart"; then
+	echo "MC server restart in ${1:-15} min."
+	screen -dmS manualrestart ${location}scripts/manualrestart.sh ${1:-15}
+
+fi

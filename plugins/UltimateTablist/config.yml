@@ -1,0 +1,14 @@
+header: "&e&l&m----------&9&8&l[&r &6&l Survival-Pi &9&8&l]&e&l&m----------\n&6Time &e>> &3{time}\n&6Donate &e>> &3/buy\n&6Website &e>> &bhttps://survival-pi.com\n"
+footer: "\n&e&l&m----------&9&8&l[&r &6&l Survival-Pi &9&8&l]&e&l&m----------"
+
+#Use the normal Minecraft color codes with & before them.
+#minecraft.tools/en/color-code.php
+#Use \n to insert a linebreak.
+#Use {players} to insert a player count.
+#Use {time} to insert the current time.
+#Use {seconds} to insert the current second.
+#Use {date} to insert the current date.
+#Use {weekday} to insert the current weekday.
+#Use {month} to insert the current month.
+#IMPORTANT
+#Using the time features may result in a small performance loss, so use them wisely.

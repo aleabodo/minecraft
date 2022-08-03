@@ -1,0 +1,12 @@
+configVersion: 5
+language: english
+interval: 6000.0
+messages: []
+prefix: ''
+header: ''
+footer: ''
+fadeIn: 1.0
+show: 3.0
+fadeOut: 1.0
+saveToggle: false
+excludedPlayers: []

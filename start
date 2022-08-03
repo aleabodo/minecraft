@@ -1,0 +1,9 @@
+#!/bin/bash
+
+location="/home/ubuntu/minecraft/" #Location of the server jar. Include terminating /. Use absolute path!
+serverJar="paper-1.19-36.jar" #Name of the server jar
+
+if ! screen -ls | grep -q "mcLoop"; then
+	echo "Server-start-loop started"
+	screen -dmS mcLoop ${location}scripts/mcLoop.sh $location $serverJar
+fi

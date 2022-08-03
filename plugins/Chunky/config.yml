@@ -1,0 +1,18 @@
+# Chunky Configuration
+# https://github.com/pop4959/Chunky/wiki/Configuration
+
+version: 1
+language: en
+continue-on-restart: false
+silent: true
+update-interval: 1
+tasks:
+  world:
+    cancelled: false
+    radius: 15000.0
+    x-center: 122.0
+    z-center: -165.0
+    iterator: concentric
+    shape: circle
+    count: 1547084
+    time: 267058710

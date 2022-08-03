@@ -1,0 +1,8 @@
+#!/bin/bash
+
+location="/home/ubuntu/minecraft/" #Location of the server jar. Include terminating /. Use absolute path!
+
+if ! screen -ls | grep -q "manualstop"; then
+	echo "MC server stop in ${1:-15} min."
+	screen -dmS manualstop ${location}scripts/manualstop.sh ${1:-15}
+fi

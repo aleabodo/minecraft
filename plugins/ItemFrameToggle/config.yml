@@ -1,0 +1,75 @@
+
+#ItemFrame Toggle
+
+#Hide item frame on shift right click
+#Once you make it invisible you can make it visible again with shift+rightclick
+#When item frame is invisible you can rotate item inside of it via shift+leftclick because right click will open containers backwards of it
+
+
+#here you can edit the message that sending to player when makes an itemframe invisible
+#blank message means don't send any message
+#messageOnHide: '' this is blank message
+#to go next line of the message use /
+#Character '/' is for next line you have to use // if you wan't to see / in the message
+
+
+messageOnHide: '&9&lYou have set an itemframe unvisible.. /&7You can rotate it &b(shift+leftclick) /&7and you can set it visible again &b(shift+rightclick)'
+#messageOnHide: ''
+#If you remove # at the beginning of the line, messages will be disabled
+
+PermissionsEnabled: false
+#You can activate permission checks per event.
+#It is disabled default
+#You have to give permission itemframetoggle.toggle if you are going to enable permissions
+
+TriggerBlocks:
+  ENDER_CHEST:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.enderchest'
+  BARREL:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.barrel'
+  BLAST_FURNACE:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.blastfurnace'
+  BREWING_STAND:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.brewingstand'
+  CHEST:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.chest'
+  DISPENSER:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.dispenser'
+  DROPPER:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.dropper'
+  FURNACE:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.furnace'
+  HOPPER:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.hopper'
+  LECTERN:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.lectern'
+  SMOKER:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.smoker'
+
+  #Includes Colored Shulker_Boxes
+  SHULKER_BOX:
+    enabled: true
+    permissionBased: false
+    permission: 'ift.shulker'

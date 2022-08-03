@@ -1,0 +1,156 @@
+# 
+#      db      `7MM"""Mq.  `7MMM.     ,MMF'#
+#     ;MM:       MM   `MM.   MMMb    dPMM  #
+#    ,V^MM.      MM   ,M9    M YM   ,M MM  #
+#   ,M  `MM      MMmmdM9     M  Mb  M' MM  #
+#   AbmmmqMA     MM  YM.     M  YM.P'  MM  #
+#  A'     VML    MM   `Mb.   M  `YM'   MM  #
+AutoPrice:
+  example1:
+    price: 200.0
+    extendTime: 2d
+    autoPriceCalculation: static
+    maxExtendTime: 7d
+  example2:
+    price: 2.0
+    extendTime: 12h
+    autoPriceCalculation: per_m2
+    maxExtendTime: 2d
+  example3:
+    price: 0.05
+    extendTime: 7d
+    autoPriceCalculation: per_m3
+    maxExtendTime: 30d
+DefaultAutoprice:
+  price: 2.0
+  extendTime: 1d
+  autoPriceCalculation: per_m2
+  maxExtendTime: 7d
+FlagGroups:
+  enabled: false
+Limits:
+  limitDefault:
+    total: 2
+  examplegroup2:
+    total: 1
+    regionkinds:
+      Default: 1
+      starter: 1
+      small: 2
+      medium: 1
+      large: 1
+      shop: 1
+    regionkindgroups: {}
+  examplegroup3:
+    total: 1
+    regionkinds:
+      Default: 1
+      starter: 1
+      small: 2
+      medium: 2
+      large: 2
+      shop: 2
+    regionkindgroups: {}
+InactivityExpiration:
+  examplegroup1:
+    resetAfter: 30d
+    takeOverAfter: 20d
+  examplegroup2:
+    resetAfter: 60d
+    takeOverAfter: 50d
+  examplegroup3:
+    resetAfter: none
+    takeOverAfter: none
+DefaultInactivityExpiration:
+  resetAfter: none
+  takeOverAfter: none
+SignLinkingMode:
+  regionblacklist:
+    world:
+    - blacklistedTestRegionInWorld1
+    - blacklistedTestRegionInWorld2
+    world_nether:
+    - blacklistedTestRegionInWorld_nether1
+    - blacklistedTestRegionInWorld_nether2
+    world_the_end:
+    - anotherBlacklistedRegion
+PriceFormatting:
+  locale: US
+  minimumFractionDigits: 2
+  maximumFractionDigits: 2
+  minimumIntegerDigits: 1
+Other:
+  userResetCooldown: 7d
+  TeleportAfterSellRegionBought: true
+  TeleportAfterRentRegionBought: false
+  TeleportAfterRentRegionExtend: false
+  TeleportAfterContractRegionBought: true
+  TeleportAfterRegionBoughtCountdown: false
+  SendRentRegionExpirationWarning: true
+  RentRegionExpirationWarningTime: 2d
+  SendContractRegionExtendMessage: true
+  SignAndResetUpdateInterval: 2
+  DateTimeFormat: dd.MM.yyyy HH:mm
+  CompleteRegionsOnTabComplete: true
+  TeleporterTimer: 0
+  RegionInfoParticleBorder: true
+  RemoveEntitiesOnRegionRestore: true
+  Language: en
+SignClickActions:
+  RightClickNotSneakCmd: buyaction
+  RightClickSneakCmd: arm sellback %regionid%
+  LeftClickNotSneakCmd: arm info %regionid%
+  LeftClickSneakCmd: arm flageditor %regionid%
+Backups:
+  createBackupOnRegionRestore: true
+  createBackupOnRegionUnsell: true
+Subregions:
+  AllowSubregionUserRestore: false
+  SubregionAutoRestore: false
+  SubregionMaxMembers: -1
+  SubregionInactivityReset: true
+  SubregionPaybackPercentage: 0
+  deleteSubregionsOnParentRegionUnsell: false
+  deleteSubregionsOnParentRegionRestore: false
+  allowParentRegionOwnersBuildOnSubregions: true
+Reselling:
+  Offers:
+    OfferTimeOut: 30
+GUI:
+  RegionOwnerItem: ENDER_CHEST
+  RegionMemberItem: CHEST
+  RegionFinderItem: COMPASS
+  GoBackItem: OAK_DOOR
+  WarningYesItem: MELON
+  WarningNoItem: REDSTONE_BLOCK
+  TPItem: ENDER_PEARL
+  SellRegionItem: DIAMOND
+  ResetItem: TNT
+  ExtendItem: CLOCK
+  InfoItem: BOOK
+  PromoteMemberToOwnerItem: LADDER
+  RemoveMemberItem: LAVA_BUCKET
+  FillItem: GRAY_STAINED_GLASS_PANE
+  ContractItem: WRITABLE_BOOK
+  SubRegionItem: GRASS_BLOCK
+  TeleportToSignItem: OAK_SIGN
+  TeleportToRegionItem: GRASS_BLOCK
+  DeleteItem: BARRIER
+  NextPageItem: ARROW
+  PrevPageItem: ARROW
+  HotelSettingItem: RED_BED
+  UnsellItem: NAME_TAG
+  FlageditorItem: BANNER
+  FlagItem: SIGN
+  FlagSettingsSelectedItem: EMERALD_BLOCK
+  FlagSettingsNotSelectedItem: REDSTONE_BLOCK
+  FlagGroupSelectedItem: EMERALD_BLOCK
+  FlagGroupNotSelectedItem: REDSTONE_BLOCK
+  FlagRemoveItem: BARRIER
+  FlagUserInputItem: WRITABLE_BOOK
+  FlageditorResetItem: TNT
+  DisplayRegionOwnerButton: true
+  DisplayRegionMemberButton: true
+  DisplayRegionFinderButton: true
+  DisplayPlayerSkins: false
+Version: '3.3'

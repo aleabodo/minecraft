@@ -22,7 +22,6 @@ plugins/WorldGuard/*
 !plugins/Essentials/rules.txt
 !plugins/Essentials/kits.yml
 !plugins/FastAsyncWorldEdit/worldedit-config.yml
-!plugins/LuckPerms/luckperms-h2.mv.db
 !plugins/voicechat/voicechat-server.properties
 
 plugins/PluginMetrics/

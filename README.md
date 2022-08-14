@@ -22,6 +22,8 @@ Setup on an Ubuntu server with username "ubuntu":
   PATH=/home/ubuntu/minecraft:$PATH
 ```
 
+The Voicechat and Dynmap bind ports `24454` and `8100` respectively. Apply those and the default minecraft port `25565` to your port forwarding and firewalls if applicable.
+
 ## Usage
 Install the paper server jar and put it into the `minecraft/`. Install plugin jars into `minecraft/plugins`. Update the `serverJar` parameter in `minecraft/start` with the corresponding file name of the Paper jar you installed. 
 ```
@@ -38,4 +40,4 @@ Install the paper server jar and put it into the `minecraft/`. Install plugin ja
   screen -r minecraft
 ```
 
-The Voicechat and Dynmap bind ports `24454` and `8100` respectively. Apply those and the default minecraft port `25565` to your port forwarding and firewalls if applicable.
+

@@ -1,6 +1,6 @@
 # Minecraft Paper SMP server: Survival-Pi
 
-##Installation
+## Installation
 
 Setup on an Ubuntu server with username "ubuntu":
 
@@ -22,7 +22,7 @@ Setup on an Ubuntu server with username "ubuntu":
   PATH=/home/ubuntu/minecraft:$PATH
 ```
 
-##Usage
+## Usage
 Install the paper server jar and put it into the `minecraft/`. Install plugin jars into `minecraft/plugins`. Update the `serverJar` parameter in `minecraft/start` with the corresponding file name of the Paper jar you installed. 
 ```
   # Start server (including start loop that restarts server after a crash)

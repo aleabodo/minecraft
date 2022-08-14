@@ -224,7 +224,7 @@ renderacceleratethreshold: 60
 renderaccelerateinterval: 0.2
 
 # How many update tiles to work on at once (if not defined, default is 1/2 the number of cores)
-tiles-rendered-at-once: 2
+tiles-rendered-at-once: 6
 
 # If true, use normal priority threads for rendering (versus low priority) - this can keep rendering
 # from starving on busy Windows boxes (Linux JVMs pretty much ignore thread priority), but may result
@@ -274,7 +274,7 @@ block-alias:
 # Note: any webp format requires the presence of the 'webp command line tools' (cwebp, dwebp) (https://developers.google.com/speed/webp/download)
 #
 # Has no effect on maps with explicit format settings
-image-format: webp-q80
+image-format: jpg-q75
 
 # If cwebp or dwebp are not on the PATH, use these settings to provide their full path.  Do not use these settings if the tools are on the PATH
 # For Windows, include .exe
@@ -326,7 +326,7 @@ render-triggers:
   #- blockredstone
 
 # Title for the web page - if not specified, defaults to the server's name (unless it is the default of 'Unknown Server')
-webpage-title: "Survival-Pi map"
+webpage-title: "Survival-Pi Map"
 
 # The path where the tile-files are placed.
 tilespath: web/tiles
@@ -433,7 +433,7 @@ check-banned-ips: true
 # Default selection when map page is loaded
 defaultzoom: 0
 defaultworld: world
-defaultmap: flat
+defaultmap: surface
 # (optional) Zoom level and map to switch to when following a player, if possible
 #followzoom: 3
 #followmap: surface

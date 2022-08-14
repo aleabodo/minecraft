@@ -15,9 +15,6 @@ Setup on an Ubuntu server with username "ubuntu":
   # Add to crontab. Cronjobs include autorestart, start after crash, start on boot and CoreProtect database purges.
   crontab scripts/crontab
   
-  # Add webp executables to PATH for the Dynmap browser map.
-  PATH=/home/ubuntu/minecraft/libwebp/bin:$PATH
-  
   # Add server scripts to PATH:
   PATH=/home/ubuntu/minecraft:$PATH
 ```

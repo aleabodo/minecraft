@@ -36,3 +36,5 @@ plugins/WorldGuard/*
 
 plugins/PluginMetrics/
 plugins/PluginMetrics/*
+
+bStats/*

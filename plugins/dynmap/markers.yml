@@ -1,0 +1,51 @@
+%YAML 1.1
+---
+icons: {
+    }
+sets:
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Markers
+        markers:
+            _sign_world_319_74_-164:
+                world: world
+                markup: true
+                x: 319.5
+                icon: sign
+                y: 74.5
+                z: -163.5
+                label: DerSpitzer<br/>Farmhouse Base
+            _sign_world_128_193_15:
+                world: world
+                markup: true
+                x: 128.5
+                icon: sign
+                y: 193.5
+                z: 15.5
+                label: Anubis' Pyramid
+            _sign_world_159_92_-381:
+                world: world
+                markup: true
+                x: 159.5
+                icon: sign
+                y: 92.5
+                z: -380.5
+                label: BuildingBrute<br/>&amp; genieu13<br/>Blackstone castle
+            _sign_world_216_70_-144:
+                world: world
+                markup: true
+                x: 216.5
+                icon: sign
+                y: 70.5
+                z: -143.5
+                label: Public<br/>supersmelter
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

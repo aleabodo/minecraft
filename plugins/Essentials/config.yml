@@ -431,6 +431,7 @@ list:
     Gold: gold
     Diamond: diamond
     Purple: purple
+    Donators: donator
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
@@ -800,7 +801,7 @@ starting-balance: 0
 # Defines the cost to use the given commands PER USE.
 # Some commands like /repair have sub-costs, check the wiki for more information.
 command-costs:
-  home: 43
+  home: 42
   # /example costs $1000 PER USE
   #example: 1000
   # /kit tools costs $1500 PER USE
@@ -910,10 +911,11 @@ chat:
   format: '&7[{PREFIX}] &3{NICKNAME} >&r {MESSAGE}'
 
   group-formats:
+    Donator: '&2[{PREFIX}&2] &3{NICKNAME} >&r {MESSAGE}'
     Gold: '&6[{PREFIX}&6] &3{NICKNAME} >&r {MESSAGE}'
     Diamond: '&b[{PREFIX}&b] &3{NICKNAME} >&r {MESSAGE}'
     Purple: '&5[{PREFIX}&5] &3{NICKNAME} >&r {MESSAGE}'
-    Admin: '&c[{PREFIX}&c] &3{NICKNAME} >&r {MESSAGE}'
+  #  Admin: '&c[{PREFIX}&c] &3{NICKNAME} >&r {MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.
   # Note: Group names are case-sensitive so you must match them up with your permission plugin.

@@ -1,0 +1,8 @@
+
+&e&l&m----&9&8&l[&r &6&l Survival-Pi &9&8&l]&e&l&m---- 
+
+&6Welcome, &3{PLAYER}&6!
+&6Type &3/help&6 for a list of commands.
+&6Type &3/list&6 to see who else is online.
+
+&eTry "[inv]" and "[website]" in chat! More placeholders with "/interactivechat list".

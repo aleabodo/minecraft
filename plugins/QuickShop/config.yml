@@ -455,7 +455,6 @@ shop:
 #Anyone with the quickshop.bypass.<itemID> permission can bypass it.
 blacklist:
 - Bedrock
-- Tnt
 
 #A fix for lockette plugin with Quickshop, because we are not canceling a break lock sign event (Making it impossible to break a locked chest).
 lockette:
@@ -571,7 +570,7 @@ integration:
   worldguard:
     enable: true
     #Should we prevent the creation of a shop or trade with a shop outside of WorldGuard regions?
-    whitelist-mode: true
+    whitelist-mode: false
     #Allow players to create a shop if the player is the owner of in this location or ANY region.
     any-owner: false
     #Should we respect the global region flag?

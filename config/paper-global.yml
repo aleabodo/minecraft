@@ -114,7 +114,7 @@ timings:
   verbose: true
 unsupported-settings:
   allow-headless-pistons: false
-  allow-permanent-block-break-exploits: false
+  allow-permanent-block-break-exploits: true
   allow-piston-duplication: true
   perform-username-validation: true
 watchdog:

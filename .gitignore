@@ -19,10 +19,20 @@
 
 plugins/WorldGuard/*
 !plugins/WorldGuard/config.yml
+
+#Essentials
+!plugins/Essentials/motd.txt
 !plugins/Essentials/rules.txt
 !plugins/Essentials/kits.yml
+
 !plugins/FastAsyncWorldEdit/worldedit-config.yml
 !plugins/voicechat/voicechat-server.properties
+
+#Include various dynmap configs 
+!plugins/dynmap/markers.yml
+!plugins/dynmap/worlds.yml
+!plugins/dynmap/configuration.txt
+!plugins/dynmap/templates/*
 
 plugins/PluginMetrics/
 plugins/PluginMetrics/*

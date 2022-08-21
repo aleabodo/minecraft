@@ -102,7 +102,7 @@ world-settings:
       cavevines-modifier: 100
       glowberry-modifier: 100
     entity-activation-range:
-      animals: 32
+      animals: 20
       monsters: 32
       raiders: 48
       misc: 16

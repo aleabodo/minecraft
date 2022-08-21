@@ -151,7 +151,7 @@ components:
     focuschatballoons: false
   - class: org.dynmap.ClientComponent
     type: chatbox
-    showplayerfaces: true
+    showplayerfaces: false
     messagettl: 5
     # Optional: set number of lines in scrollable message history: if set, messagettl is not used to age out messages
     #scrollback: 100
@@ -164,7 +164,7 @@ components:
     showplayerfaces: true
     showplayerhealth: true
     # If true, show player body too (only valid if showplayerfaces=true)
-    showplayerbody: false
+    showplayerbody: true
     # Option to make player faces small - don't use with showplayerhealth or largeplayerfaces
     smallplayerfaces: false
     # Option to make player faces larger - don't use with showplayerhealth or smallplayerfaces
@@ -184,7 +184,7 @@ components:
   - class: org.dynmap.ClientComponent
     type: timeofdayclock
     showdigitalclock: false
-    showweather: false
+    showweather: true
   # Mouse pointer world coordinate display
   - class: org.dynmap.ClientComponent
     type: coord
@@ -317,7 +317,7 @@ render-triggers:
   - blockformed
   - blockfaded
   - blockspread
-  - pistonmoved
+  #- pistonmoved
   - explosion
   #- blockfromto
   #- blockphysics
@@ -349,7 +349,7 @@ exportpath: export
 webserver-port: 8100
 
 # Maximum concurrent session on internal web server - limits resources used in Bukkit server
-max-sessions: 30
+max-sessions: 15
 
 # Disables Webserver portion of Dynmap (Advanced users only)
 disable-webserver: false
@@ -403,7 +403,7 @@ player-sort-permission-nodes:
   - bukkit.command.op
   
 # Set sidebaropened: 'true' to pin menu sidebar opened permanently, 'pinned' to default the sidebar to pinned, but allow it to unpin
-#sidebaropened: true
+sidebaropened: true
 
 # Customized HTTP response headers - add 'id: value' pairs to all HTTP response headers (internal web server only)
 #http-response-headers:
@@ -428,10 +428,10 @@ webmsgformat: "&color;2[WEB] %playername%: &color;f%message%"
 showlayercontrol: true
 
 # Enable checking for banned IPs via banned-ips.txt (internal web server only)
-check-banned-ips: true
+check-banned-ips: false
 
 # Default selection when map page is loaded
-defaultzoom: 0
+defaultzoom: 1
 defaultworld: world
 defaultmap: surface
 # (optional) Zoom level and map to switch to when following a player, if possible

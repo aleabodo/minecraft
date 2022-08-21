@@ -40,7 +40,7 @@ nick-blacklist:
 
 # When this option is enabled, nickname length checking will exclude color codes in player names.
 # ie: "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true
-ignore-colors-in-max-nick-length: false
+ignore-colors-in-max-nick-length: true
 
 # When this option is enabled, display names for hidden users will not be shown. This prevents players from being
 # able to see that they are online while vanished.
@@ -65,7 +65,7 @@ change-playerlist: false
 # When this option is enabled, player prefixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher.
 # This value of change-playerlist has to be true
-#add-prefix-in-playerlist: true
+add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher. 
@@ -543,8 +543,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "&3{USERNAME} &6joined the adventure :)"
-custom-quit-message: "&3{USERNAME} &6left :("
+custom-join-message: "&3{USERNAME} &6joined."
+custom-quit-message: "&3{USERNAME} &6left."
 
 # You can set a custom join message for users who join with a new username here.
 # This message will only be used if a user has joined before and have since changed their username.
@@ -692,8 +692,8 @@ delay-motd: 0
 # A list of commands that should have their complementary confirm commands enabled by default.
 # This is empty by default, for the latest list of valid commands see the latest source config.yml.
 default-enabled-confirm-commands:
-- pay
-#- clearinventory
+#- pay
+- clearinventory
 
 # Where should Essentials teleport players when they are freed from jail?
 # You can set to "back" to have them teleported to where they were before they were jailed, "spawn" to have them
@@ -908,13 +908,13 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '&7[{PREFIX}] &3{NICKNAME} >&r {MESSAGE}'
+  format: '&7[{PREFIX}] &3{NICKNAME} &3>&r {MESSAGE}'
 
   group-formats:
-    Donator: '&2[{PREFIX}&2] &3{NICKNAME} >&r {MESSAGE}'
-    Gold: '&6[{PREFIX}&6] &3{NICKNAME} >&r {MESSAGE}'
-    Diamond: '&b[{PREFIX}&b] &3{NICKNAME} >&r {MESSAGE}'
-    Purple: '&5[{PREFIX}&5] &3{NICKNAME} >&r {MESSAGE}'
+    Donator: '&2[{PREFIX}&2] &3{NICKNAME} &3>&r {MESSAGE}'
+    Gold: '&6[{PREFIX}&6] &3{NICKNAME} &3>&r {MESSAGE}'
+    Diamond: '&b[{PREFIX}&b] &3{NICKNAME} &3>&r {MESSAGE}'
+    Purple: '&5[{PREFIX}&5] &3{NICKNAME} &3>&r {MESSAGE}'
   #  Admin: '&c[{PREFIX}&c] &3{NICKNAME} >&r {MESSAGE}'
 
   # If you are using group formats make sure to remove the '#' to allow the setting to be read.

@@ -54,7 +54,7 @@ Options:
     max-distance: 0.00
 
     # Defines whether a player should receive a custom message when he starts to sit
-    sit-message: true
+    sit-message: false
 
     # Defines whether a player can sit by default without using the sit toggle command
     default-sit-mode: true
@@ -64,7 +64,7 @@ Options:
   PlayerSit:
 
     # Defines whether a player can right-click to sit on another player
-    allow-sit: true
+    allow-sit: false
 
     # Defines whether a player can right-click to sit on an NPC
     allow-sit-npc: false

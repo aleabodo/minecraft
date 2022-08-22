@@ -29,7 +29,6 @@ plugins/WorldGuard/*
 !plugins/voicechat/voicechat-server.properties
 
 #Include various dynmap configs 
-!plugins/dynmap/markers.yml
 !plugins/dynmap/worlds.yml
 !plugins/dynmap/configuration.txt
 !plugins/dynmap/templates/*

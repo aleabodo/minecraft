@@ -64,10 +64,10 @@ Options:
   PlayerSit:
 
     # Defines whether a player can right-click to sit on another player
-    allow-sit: false
+    allow-sit: true
 
     # Defines whether a player can right-click to sit on an NPC
-    allow-sit-npc: false
+    allow-sit-npc: true
 
     # Defines the maximum number of players that can be stacked (0 means unlimited)
     max-stack: 0
@@ -82,7 +82,7 @@ Options:
     max-distance: 0.00
 
     # Defines whether a player should receive a custom message when he starts to sit on another player
-    sit-message: true
+    sit-message: false
 
     # Defines whether a player can sit on another player by default without using the sit playertoggle command
     default-sit-mode: true

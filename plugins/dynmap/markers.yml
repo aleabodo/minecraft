@@ -27,7 +27,7 @@ sets:
                 icon: sign
                 y: 74.5
                 z: -163.5
-                label: DerSpitzer<br/>Farmhouse Base
+                label: DerSpitzer's Base
             _sign_world_-5707_62_-10798:
                 world: world
                 markup: true
@@ -75,7 +75,7 @@ sets:
                 icon: sign
                 y: 92.5
                 z: -380.5
-                label: BuildingBrute<br/>&amp; genieu13<br/>Blackstone castle
+                label: BB's and gen13's<br/>Blackstone<br/>Palace
             _sign_world_-567_71_228:
                 world: world
                 markup: true

@@ -60,7 +60,7 @@ components:
     trustclientname: false
     includehiddenplayers: false
     # (optional) if true, color codes in player display names are used
-    use-name-colors: false
+    use-name-colors: true
     # (optional) if true, player login IDs will be used for web chat when their IPs match
     use-player-login-ip: true
     # (optional) if use-player-login-ip is true, setting this to true will cause chat messages not matching a known player IP to be ignored
@@ -164,7 +164,7 @@ components:
     showplayerfaces: true
     showplayerhealth: true
     # If true, show player body too (only valid if showplayerfaces=true)
-    showplayerbody: true
+    showplayerbody: false
     # Option to make player faces small - don't use with showplayerhealth or largeplayerfaces
     smallplayerfaces: false
     # Option to make player faces larger - don't use with showplayerhealth or smallplayerfaces

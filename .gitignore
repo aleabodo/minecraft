@@ -11,6 +11,8 @@
 !bukkit.yml
 !spigot.yml
 
+!pluginList.md
+
 #scripts
 !scripts/*
 !start

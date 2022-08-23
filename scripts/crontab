@@ -1,8 +1,8 @@
 # Minecraft Start Server Loop
 @reboot (sleep 60; cd /home/ubuntu/minecraft/scripts/; screen -dmS mcLoop ./mcLoop.sh)
 
-# Minecraft Restart 6:00
-45 5 * * * (cd /home/ubuntu/minecraft/scripts/; screen -dmS autorestart ./autorestart.sh)
+# Minecraft Restart 8:00
+45 7 * * * (cd /home/ubuntu/minecraft/scripts/; screen -dmS autorestart ./autorestart.sh)
 
 # Purge CoreProtect
 0 0 * * 1 (cd /home/ubuntu/minecraft/scripts/; screen -dmS purge ./purge.sh)

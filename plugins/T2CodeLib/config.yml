@@ -1,0 +1,11 @@
+Plugin:
+  UpdateCheck:
+    OnJoin: true
+    TimeInterval: 60
+  language: english
+BungeeCord:
+  Enable: false
+  ThisServer: server
+Player:
+  Inventories:
+    CloseByServerStop: true

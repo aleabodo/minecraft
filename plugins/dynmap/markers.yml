@@ -68,6 +68,14 @@ sets:
                 y: 223.5
                 z: -2369.5
                 label: Mount Toblerone
+            _sign_world_854_65_179:
+                world: world
+                markup: true
+                x: 854.5
+                icon: sign
+                y: 65.5
+                z: 179.5
+                label: witch farm
             _sign_world_159_92_-381:
                 world: world
                 markup: true

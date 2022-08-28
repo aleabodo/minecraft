@@ -65,7 +65,7 @@ change-playerlist: false
 # When this option is enabled, player prefixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher.
 # This value of change-playerlist has to be true
-add-prefix-in-playerlist: true
+add-prefix-in-playerlist: false
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher. 
@@ -425,9 +425,8 @@ per-warp-permission: false
 list:
     # To merge groups, list the groups you wish to merge
     #Staff: owner admin moderator
-    Admins: admin
     Newbies: default
-    Adventurers: adventurer
+    Adventurers: adventurer admin
     Gold: gold
     Diamond: diamond
     Purple: purple

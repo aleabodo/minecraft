@@ -35,6 +35,13 @@ plugins/WorldGuard/*
 !plugins/dynmap/configuration.txt
 !plugins/dynmap/templates/*
 
+#TAB
+!plugins/TAB/groups.yml
+!plugins/TAB/animations.yml
+
+#News
+!plugins/NewsAnnouncer/news.yml
+
 plugins/PluginMetrics/
 plugins/PluginMetrics/*
 

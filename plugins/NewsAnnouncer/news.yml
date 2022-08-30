@@ -1,0 +1,12 @@
+# DO NOT MANUALLY EDIT THIS FILE
+
+'1':
+  news: Did you know you can modify armor stands with "/aa" when standing next to
+    it?
+  count: 2
+  enabled: true
+'2':
+  news: 'Current event: Collect custom music discs by buying them or finding them
+    from treasure hunts at spawn. Until September 30th!'
+  count: 2
+  enabled: true

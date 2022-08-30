@@ -1,0 +1,127 @@
+bar:
+  change-interval: 100
+  texts:
+  - '&3-&6--------------'
+  - '&6-&3-&6-------------'
+  - '&6--&3-&6------------'
+  - '&6---&3-&6-----------'
+  - '&6----&3-&6----------'
+  - '&6-----&3-&6---------'
+  - '&6------&3-&6--------'
+  - '&6-------&3-&6-------'
+  - '&6--------&3-&6------'
+  - '&6---------&3-&6-----'
+  - '&6----------&3-&6----'
+  - '&6-----------&3-&6---'
+  - '&6------------&3-&6--'
+  - '&6-------------&3-&6-'
+  - '&6--------------&3-'
+  - '&6-------------&3-&6-'
+  - '&6------------&3-&6--'
+  - '&6-----------&3-&6---'
+  - '&6----------&3-&6----'
+  - '&6---------&3-&6-----'
+  - '&6--------&3-&6------'
+  - '&6-------&3-&6-------'
+  - '&6------&3-&6--------'
+  - '&6-----&3-&6---------'
+  - '&6----&3-&6----------'
+  - '&6---&3-&6-----------'
+  - '&6--&3-&6------------'
+  - '&6-&3-&6-------------'
+  - '&3-&6--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+
+  - '&b&3s&burvival-pi.com'
+  - '&bs&3u&brvival-pi.com'
+  - '&bsu&3r&bvival-pi.com'
+  - '&bsur&3v&bival-pi.com'
+  - '&bsurv&3i&bval-pi.com'
+  - '&bsurvi&3v&bal-pi.com'
+  - '&bsurviv&3a&bl-pi.com'
+  - '&bsurviva&3l&b-pi.com'
+  - '&bsurvival&3-&bpi.com'
+  - '&bsurvival-&3p&bi.com'
+  - '&bsurvival-p&3i&b.com'
+  - '&bsurvival-pi&3.&bcom'
+  - '&bsurvival-pi.&3c&bom'
+  - '&bsurvival-pi.c&3o&bm'
+  - '&bsurvival-pi.co&3m'
+
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+  - '&bsurvival-pi.com'
+map:
+  change-interval: 200
+  texts:
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+
+  - '&b&3s&burvival-pi.com/map'
+  - '&bs&3u&brvival-pi.com/map'
+  - '&bsu&3r&bvival-pi.com/map'
+  - '&bsur&3v&bival-pi.com/map'
+  - '&bsurv&3i&bval-pi.com/map'
+  - '&bsurvi&3v&bal-pi.com/map'
+  - '&bsurviv&3a&bl-pi.com/map'
+  - '&bsurviva&3l&b-pi.com/map'
+  - '&bsurvival&3-&bpi.com/map'
+  - '&bsurvival-&3p&bi.com/map'
+  - '&bsurvival-p&3i&b.com/map'
+  - '&bsurvival-pi&3.&bcom/map'
+  - '&bsurvival-pi.&3c&bom/map'
+  - '&bsurvival-pi.c&3o&bm/map'
+  - '&bsurvival-pi.co&3m&b/map'
+  - '&bsurvival-pi.com&3/&bmap'
+  - '&bsurvival-pi.com/&3m&bap'
+  - '&bsurvival-pi.com/m&3a&bp'
+  - '&bsurvival-pi.com/ma&3p'
+
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+  - '&bsurvival-pi.com/map'
+donate:
+  change-interval: 400
+  texts:
+  - '&6>    &6Donate: &7/buy &6   <'
+  - ' &6>   &6Donate: &7/buy &6  < '
+  - '  &6>  &6Donate: &7/buy &6 <  '
+  - '   &6> &6Donate: &7/buy &6<   '
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

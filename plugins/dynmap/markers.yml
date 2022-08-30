@@ -12,14 +12,6 @@ sets:
             }
         label: Markers
         markers:
-            _sign_world_-569_71_228:
-                world: world
-                markup: true
-                x: -568.5
-                icon: sign
-                y: 71.5
-                z: 228.5
-                label: DEEZ NUTS
             _sign_world_319_74_-164:
                 world: world
                 markup: true
@@ -28,14 +20,6 @@ sets:
                 y: 74.5
                 z: -163.5
                 label: DerSpitzer's Base
-            _sign_world_-5707_62_-10798:
-                world: world
-                markup: true
-                x: -5706.5
-                icon: sign
-                y: 62.5
-                z: -10797.5
-                label: Turtle orgy
             _sign_world_166_79_-1227:
                 world: world
                 markup: true
@@ -60,14 +44,14 @@ sets:
                 y: 47.5
                 z: 592.5
                 label: Rune's<br/>Deepslate Dome
-            _sign_world_-1075_223_-2370:
+            _sign_world_-2084_66_2115:
                 world: world
                 markup: true
-                x: -1074.5
+                x: -2083.5
                 icon: sign
-                y: 223.5
-                z: -2369.5
-                label: Mount Toblerone
+                y: 66.5
+                z: 2115.5
+                label: Eight's<br/>Mine Base
             _sign_world_854_65_179:
                 world: world
                 markup: true
@@ -76,6 +60,30 @@ sets:
                 y: 65.5
                 z: 179.5
                 label: witch farm
+            _sign_world_-569_71_228:
+                world: world
+                markup: true
+                x: -568.5
+                icon: sign
+                y: 71.5
+                z: 228.5
+                label: DEEZ NUTS
+            _sign_world_-5707_62_-10798:
+                world: world
+                markup: true
+                x: -5706.5
+                icon: sign
+                y: 62.5
+                z: -10797.5
+                label: Turtle orgy
+            _sign_world_-1075_223_-2370:
+                world: world
+                markup: true
+                x: -1074.5
+                icon: sign
+                y: 223.5
+                z: -2369.5
+                label: Mount Toblerone
             _sign_world_159_92_-381:
                 world: world
                 markup: true
@@ -100,6 +108,14 @@ sets:
                 y: 70.5
                 z: -143.5
                 label: Public<br/>supersmelter
+            _sign_world_-2357_64_1988:
+                world: world
+                markup: true
+                x: -2356.5
+                icon: sign
+                y: 64.5
+                z: 1988.5
+                label: ImagineLegend<br/>Slycaish<br/>LiveYourLife8
         lines: {
             }
         layerprio: 0

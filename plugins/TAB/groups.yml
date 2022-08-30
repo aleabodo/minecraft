@@ -1,0 +1,15 @@
+_DEFAULT_:
+  tabprefix: '&7[%luckperms-prefix%] &r'
+  tagprefix: '&7[%luckperms-prefix%] &r'
+purple:
+  tabprefix: '&5[%luckperms-prefix%] &r'
+  tagprefix: '&5[%luckperms-prefix%] &r'
+diamond:
+  tabprefix: '&b[%luckperms-prefix%] &r'
+  tagprefix: '&b[%luckperms-prefix%] &r'
+gold:
+  tabprefix: '&6[%luckperms-prefix%] &r'
+  tagprefix: '&6[%luckperms-prefix%] &r'
+adventurer:
+  tabprefix: '&7[%luckperms-prefix%] &r'
+  tagprefix: '&7[%luckperms-prefix%] &r'

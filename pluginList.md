@@ -1,3 +1,4 @@
+AdvancedArmorStands.jar
 advancedregionmarket-3.3.7.jar
 broadcastxs-3.4.3.jar
 BuycraftX.jar
@@ -12,7 +13,7 @@ Dynmap-3.4-beta-5-spigot.jar
 EssentialsX-2.19.5-dev+41-ee7c1b1.jar
 EssentialsXChat-2.19.5-dev+41-ee7c1b1.jar
 EssentialsXSpawn-2.19.5-dev+41-ee7c1b1.jar
-FastAsyncWorldEdit-Bukkit-2.4.4-SNAPSHOT-263.jar
+FastAsyncWorldEdit-Bukkit-2.4.5-SNAPSHOT-269.jar
 GSit-1.1.2.jar
 HeadDatabase-4.17.0.jar
 HyacinthHello-1.2.1.jar
@@ -29,7 +30,7 @@ ProtectYourChest.jar
 ProtocolLib.jar
 QuickShop-5.1.0.9.jar
 SpectatorMode-2.2.0.jar
-SuperVanish-6.2.7.jar
+SuperVanish-6.2.11.jar
 UltimateTablist v1.2.jar
 Vault.jar
 voicechat-bukkit-1.19-2.3.3.jar

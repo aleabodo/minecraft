@@ -73,7 +73,7 @@ collisions:
 entities:
   armor-stands:
     do-collision-entity-lookups: false
-    tick: true
+    tick: false
   behavior:
     baby-zombie-movement-modifier: 0.5
     disable-chest-cat-detection: false
